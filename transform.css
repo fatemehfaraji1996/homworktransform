@@ -3,14 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-body
-{
-    background-color: beige;
-}
 .bigpar{
+    background-color: beige;
+    height: inherit;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
+justify-content: space-between;
 flex-direction: row;
 }
 
@@ -18,11 +16,11 @@ flex-direction: row;
     width: 250px;
     height: 150px;
     border: 2px solid rgb(181, 167, 167);
-    border-width:2px;
+    /* border-width:2px; */
     background-color:rgb(244, 230, 230); ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
@@ -31,18 +29,21 @@ flex-direction: row;
     height: 100px;
     border: 2px solid rgb(142, 132, 142);
     background-color: rgb(186, 175, 186) ;
+    
 }
 .a2{
     width: 100px;
     height: 100px;
     border: 2px solid rgb(206, 125, 206);
     background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-out;
    
 }
 .a2:hover{
     
     transform: scale(2);
-transition: all 1s linear;
+transition: all 0.5s linear;
+
 /*transform-origin:left*/
 }
 .parent1{
@@ -53,19 +54,807 @@ transition: all 1s linear;
     background-color:rgb(244, 230, 230); ;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
 }
 .b1{
     width: 100px;
     height: 100px;
-    border: 2px solid rgb(142, 132, 142);
-    background-color: rgb(186, 175, 186) ;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
 }
 .b2{
     width: 100px;
     height: 100px;
     border: 2px solid rgb(206, 125, 206);
-    background-color: rgb(233, 141, 233) ;
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-out;
+
 }
+.b2:hover{
+    transform: skew(18deg, 16deg);
+transition: all 0.5s linear;
+/*kaj*/
+}
+.parent2{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.c1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.c2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+}
+.c2:hover{
+    transform: rotate(-45deg);
+transition: all 0.5s linear;
+/*charkheshi*/
+}
+.parent3{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.e1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.e2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+}
+.e2:hover{
+    transform: skewX(-45deg);
+    transition: all 0.5s linear;
+    /*gharinekajcharkhesh*/
+}
+/*...............................................................*/
+.parent4{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.f1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.f2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+}
+.f2:hover{
+    
+    transform: translate(50px);
+    transition: all 0.5s linear;
+    /*KESHO*/
+}
+/*..........................................................................*/
+.parent5{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.g1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.g2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+
+}
+.g2:hover{
+    transform: translate(50px, 50px);
+    transition: all 0.5s linear;
+    /*JABEJAKAJ*/
+}
+/*..........................................................................*/
+.parent6{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.H1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.H2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.H2:hover{
+   
+    transform: scale(1, 0.5);
+    transition: all 0.5s linear;
+}
+    /*KOCHAK BALA PAIN*/
+
+/*..........................................................................*/
+.parent7{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.I1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.I2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.I2:hover{
+   
+    transform: scale(0.5, 01);
+    transition: all 0.5s linear;
+}
+    /*JAM CENTER*/
+
+/*..........................................................................*/
+.parent8{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.J1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.J2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.J2:hover{
+   
+    transform: scale(2, 1);
+    transition: all 0.5s linear;
+}
+    /*BALA PAIN BAZ*/
+
+/*..........................................................................*/
+.parent9{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.K1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.K2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.K2:hover{
+   
+    transform: scale(1, 2);
+    transition: all 0.5s linear;
+}
+    /*BALA PAIN BIG*/
+
+/*..........................................................................*/
+.parent10{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.L1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.L2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.L2:hover{
+   
+    transform: translate(0px,50px);
+    transition: all 0.5s linear;
+}
+    /*KESH PAIN*/
+
+/*..........................................................................*/
+.parent11{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.m1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.m2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+   
+
+}
+.m2:hover{
+   
+    transform: matrix3d(
+    1, 0, 0, 0,
+    0, 1, 0, 0,
+    0, 0, 1, 0,
+    -50, -50, 0, 1.1);
+    transition: all 0.5s linear;
+}
+    /*kaj pain*/
+
+/*..........................................................................*/
+.parent13{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.o1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+
+}
+.o2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s step-end;
+   
+
+}
+.o2:hover{
+    transform-origin: top right;
+    transform: scale(1) rotate(30deg);
+    transition: all 0.5s linear;
+
+    
+}
+/*ghoshe rast*/
+/*........................................................................*/
+.parent14{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.p1{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+    
+}
+.p2{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+       
+}
+.p2:hover
+{
+transform-origin: bottom left;
+transform: scale(1) rotate(100deg);
+transition: all 0.5s li
+}
+/*ghoshe rast*/
+/*........................................................................*/
+.parent15
+{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+        .Q1{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(135, 142, 132);
+            background-color: rgb(175, 186, 177) ;
+        
+        }
+        .Q2{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(206, 125, 206);
+            background-color: rgba(232, 14, 232, 0.459) ;
+            transition: all 0.5s ease-in-out;
+            transform-origin:bottom left;
+        }
+        .Q2:hover{
+            transform: scale(2,2);
+            transition: all 0.5s ease-in-out;
+}
+/*ghoshe bi*//*........................................................................*/
+.parent16
+{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.r1{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+            
+}
+.r2{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+transform-origin: top;
+}
+                
+    .r2:hover{
+transform: perspective(200px) rotateX(90deg);
+transition: all 0.5s ease-in-out;
+}
+/*panjare*/
+ /*........................................................................*/
+.parent17
+{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.s1
+{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+                
+}
+.s2{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+transform-origin: bottom;
+}
+.s2:hover
+{
+transform: perspective(200px) rotateX(90deg);
+transition: all 0.5s ease-in-out;
+}
+/*panjare*/
+/*........................................................................*/              
+ .parent18{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.t1
+{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+}
+.t2
+{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+transform-origin: right,left;
+}
+.t2:hover
+{
+transform: perspective(100px) rotateX(40deg);
+transition: all 0.5s ease-in-out;
+}
+/**/
+/*........................................................................*/              
+.parent19
+{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.u1
+{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+                
+}
+.u2
+{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+transform-origin:right;
+}
+.u2:hover
+{
+transform: perspective(200px) rotateY(-30deg);
+transition: all 0.5s ease-in-out;
+}
+/*PANJAREHBAZRIGHT*/
+/*....................................................*/
+.parent20{
+width: 250px;
+height: 150px;
+border: 2px solid rgb(181, 167, 167);
+border-width:2px;
+background-color:rgb(244, 230, 230); ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.V1{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(135, 142, 132);
+background-color: rgb(175, 186, 177) ;
+    
+}
+.V2{
+width: 100px;
+height: 100px;
+border: 2px solid rgb(206, 125, 206);
+background-color: rgba(232, 14, 232, 0.459) ;
+transition: all 0.5s ease-in-out;
+transform-origin: bottom left;   
+}
+.V2:hover
+{
+
+transform: scale(2,1);
+transition: all 0.5s ease-in-out;
+transition: all 0.5s li
+}    
+/*............................................................................*/
+.parent21{
+    width: 250px;
+    height: 150px;
+    border: 2px solid rgb(181, 167, 167);
+    border-width:2px;
+    background-color:rgb(244, 230, 230); ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+    .W1{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(135, 142, 132);
+    background-color: rgb(175, 186, 177) ;
+        
+    }
+    .W2{
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(206, 125, 206);
+    background-color: rgba(232, 14, 232, 0.459) ;
+    transition: all 0.5s ease-in-out;
+    transform-origin: bottom left;   
+    }
+    .W2:hover
+    {
+    
+    transform: scale(1,2);
+    transition: all 0.5s ease-in-out;
+    transition: all 0.5s li
+    }    
+    /*............................................................................*/
+.parent22{
+        width: 250px;
+        height: 150px;
+        border: 2px solid rgb(181, 167, 167);
+        border-width:2px;
+        background-color:rgb(244, 230, 230); ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+        .X1{
+        width: 100px;
+        height: 100px;
+        border: 2px solid rgb(135, 142, 132);
+        background-color: rgb(175, 186, 177) ;
+            
+        }
+        .X2{
+        width: 100px;
+        height: 100px;
+        border: 2px solid rgb(206, 125, 206);
+        background-color: rgba(232, 14, 232, 0.459) ;
+        transition: all 0.5s ease-in-out;
+        transform-origin: bottom right;   
+        }
+        .X2:hover
+        {
+        
+        transform: scale(2,1);
+        transition: all 0.5s ease-in-out;
+        transition: all 0.5s li
+        }    
+        /*............................................................................*/
+        .parent23{
+            width: 250px;
+            height: 150px;
+            border: 2px solid rgb(181, 167, 167);
+            border-width:2px;
+            background-color:rgb(244, 230, 230); ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            }
+            .Y1{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(135, 142, 132);
+            background-color: rgb(175, 186, 177) ;
+                
+            }
+            .Y2{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(206, 125, 206);
+            background-color: rgba(232, 14, 232, 0.459) ;
+            transition: all 0.5s ease-in-out;
+            transform-origin: top;   
+            }
+            .Y2:hover
+            {
+            
+            transform: scaleY(2);
+            transition: all 0.5s ease-in-out;
+            transition: all 0.5s li
+            }    
+            /*............................................................................*/
+            .parent24
+            {
+            width: 250px;
+            height: 150px;
+            border: 2px solid rgb(181, 167, 167);
+            border-width:2px;
+            background-color:rgb(244, 230, 230); ;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            }
+            .Z1
+            {
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(135, 142, 132);
+            background-color: rgb(175, 186, 177) ;
+                            
+            }
+            .Z2{
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(206, 125, 206);
+            background-color: rgba(232, 14, 232, 0.459) ;
+            transition: all 0.5s ease-in-out;
+            transform-origin: right;
+            }
+            .Z2:hover
+            {
+            transform: perspective(500px) skewX(45deg);
+            transition: all 0.5s ease-in-out;
+            }
+            /*.............................................................................................................*/
+            .parent25
+            {
+                width: 250px;
+                height: 150px;
+                border: 2px solid rgb(181, 167, 167);
+                border-width:2px;
+                background-color:rgb(244, 230, 230); ;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .G1{
+                        width: 100px;
+                        height: 100px;
+                        border: 2px solid rgb(135, 142, 132);
+                        background-color: rgb(175, 186, 177) ;
+                    
+                    }
+                    .G2{
+                        width: 100px;
+                        height: 100px;
+                        border: 2px solid rgb(206, 125, 206);
+                        background-color: rgba(232, 14, 232, 0.459) ;
+                        transition: all 0.5s ease-in-out;
+                        transform-origin:top right;
+                    }
+                    .G2:hover{
+                        transform: scale(2,2);
+                        transition: all 0.5s ease-in-out;
+                    }                         
